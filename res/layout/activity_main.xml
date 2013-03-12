@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fall">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="500px"
+         android:layout_y="800px" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250px"
+        android:layout_y="100px"
+        android:background="#00000000"
+        android:textColor="#fbc8b5"
+        android:onClick="testButton"
+        android:text="slow Row" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_x="180px"
+        android:layout_y="180px"
+        android:onClick="onUntanLowButton"
+        android:textColor="#4f71b7"
+        android:text="Low" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:onClick="onStartButton"
+        android:textColor="#9933ff"
+        android:text="Play Music" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="400px"
+        android:layout_y="700px" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_x="30px"
+        android:layout_y="100px"
+         android:textColor="#4f71b7"
+        android:onClick="onUntanButton"
+        android:text="Minda" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+       android:layout_x="30px"
+        android:layout_y="150px"
+        android:onClick="onUntanHighButton"
+        android:text="High" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+         android:layout_x="130px"
+        android:layout_y="100px"
+        android:onClick="onStopButton"
+        android:textColor="#9933ff"
+        android:text="Stop" />
+     <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+       android:layout_x="400px"
+        android:layout_y="200px"
+        android:onClick="tryButton"
+        android:textColor="#9933ff"
+        android:text="Quick Minda" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100px"
+         android:layout_y="700px"
+       />
+
+</AbsoluteLayout>
